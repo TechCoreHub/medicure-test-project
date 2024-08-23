@@ -104,7 +104,7 @@
 	      <configuration>
 	        <archive>
 	          <manifest>
-	            <mainClass>com.test.app.medicure_test_project</mainClass>
+	            <mainClass>com.test.app.medicure_test_project.App</mainClass>
 	          </manifest>
 	        </archive>
 	        <descriptorRefs>
