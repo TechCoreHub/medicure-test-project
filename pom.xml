@@ -105,6 +105,7 @@
         </plugin>
         <plugin>
 	      <artifactId>maven-assembly-plugin</artifactId>
+	      <version>3.7.1</version>
 	      <configuration>
 	        <archive>
 	          <manifest>
@@ -118,5 +119,12 @@
 	    </plugin>
       </plugins>
     </pluginManagement>
+    <!-- To use the plugin goals in your POM or parent POM -->
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
   </build>
 </project>
